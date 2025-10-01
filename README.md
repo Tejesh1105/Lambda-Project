@@ -1,6 +1,7 @@
 ## 🛡️ AWS Security Group Compliance Monitor Using AWS Lambda.
 
 ![image alt](https://github.com/Tejesh1105/Lambda-Project/blob/369d9ccec6d0ebb0bcb253904cd27182b8290668/Lamda%20Project%20Flow-Chart.PNG)
+
 This project implements an **automated, multi-region AWS security monitoring solution** designed to identify and report on overly permissive **EC2 Security Group (SG) ingress rules** that allow access from the entire internet (`0.0.0.0/0`).
 
 It uses **AWS Lambda** for the core auditing logic, **Amazon EventBridge** for scheduled execution, **Amazon SNS** for immediate alerts, and **Amazon S3** for persistent reporting.
